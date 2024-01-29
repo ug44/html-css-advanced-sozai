@@ -24,6 +24,18 @@
         <a href="index.html#product">PRODUCT</a>
         <a href="index.html#contact">CONTACT</a>
       </nav>
+
+      <!-- スマホ用メニュー -->
+      <img id="menu-sp" src="images/button-menu.png" alt="ナビゲーションを開く" onclick="document.getElementById('navi-sp').style.display='block';">
+      <navi id="navi-sp">
+        <img id="close" src="images/button-close.png" alt="ナビゲーションを閉じる" onclick="document.getElementById('navi-sp').style.display='none';">
+        <a id="logo-sp" href="index.html" onclick="document.getElementById('navi-sp').style.display='none';">
+          <img src="images/logo-sp.png" alt="トップページに戻る">
+        </a>
+        <a class="menu" href="index.html#concept" onclick="document.getElementById('navi-sp').style.display='none';">CONCEPT</a>
+        <a class="menu" href="index.html#product" onclick="document.getElementById('navi-sp').style.display='none';">PRODUCT</a>
+        <a class="menu" href="index.html#contact" onclick="document.getElementById('navi-sp').style.display='none';">CONTACT</a>
+      </navi>
     </header>
     <main>
       <article>
